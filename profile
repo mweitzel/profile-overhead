@@ -4,7 +4,6 @@ set -e                              # fail fast
 
 function can_run_file() {
   local file=$1
-  echo $file
   test -x $1 && which $(head -n 1 $file | cut -d' ' -f2)
 }
 
@@ -19,6 +18,7 @@ function main() {
   do
     can_run_file $line || {
       warn_cannot_run $line
+      echo
       continue
     }
     time $line 2>&1
