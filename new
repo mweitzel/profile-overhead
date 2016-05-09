@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e
+mkdir $1
+echo "#!/usr/bin/env $1" > $1/hello
+chmod u+x $1/hello
