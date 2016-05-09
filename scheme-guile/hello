@@ -1,4 +1,4 @@
-#!/usr/bin/env guile -s
+#!/usr/bin/env guile --fresh-auto-compile -s
 !#
 
 (display "hello world")
