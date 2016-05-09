@@ -1,3 +1,8 @@
-a benchmark repository
+a benchmarking repository
 
-profile hello worlds against eachother
+the intent of this repo is to init times of different languages
+
+compare with `./profile`
+
+to add languages to this repository, run `./new lang-name`
+then add a hello world script to the created file
