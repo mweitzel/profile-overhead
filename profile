@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e                              # fail fast
+set -e
 
 function can_run_file() {
   local file=$1
