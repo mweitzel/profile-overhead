@@ -1,8 +1,14 @@
 a benchmarking repository
 
-the intent of this repo is to init times of different languages
+the intent of this repo is to compare init times
+of different scripting languages
 
-compare with `./profile`
+compare with:
 
-to add languages to this repository, run `./new lang-name`
+  $ ./profile
+
+to add languages to this repository, run
+
+  $ ./new lang-name
+
 then add a hello world script to the created file
